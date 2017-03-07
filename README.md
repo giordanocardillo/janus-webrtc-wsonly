@@ -1,4 +1,6 @@
-# Janus WebRTC compiled as following
+[![Docker Stars](https://img.shields.io/docker/stars/giordanocardillo/janus-webrtc-wsonly.svg)](https://hub.docker.com/r/giordanocardillo/janus-webrtc-wsonly/) [![Docker Pulls](https://img.shields.io/docker/pulls/giordanocardillo/janus-webrtc-wsonly.svg)](https://hub.docker.com/r/giordanocardillo/janus-webrtc-wsonly/) [![Docker Automated buil](https://img.shields.io/docker/automated/giordanocardillo/janus-webrtc-wsonly.svg)](https://hub.docker.com/r/giordanocardillo/janus-webrtc-wsonly/)
+
+# Janus WebRTC v0.2.2 compiled as follows
 
 ```
 libsrtp version:           2.0.x

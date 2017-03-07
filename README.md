@@ -1,4 +1,4 @@
-[![Docker Stars](https://img.shields.io/docker/stars/giordanocardillo/janus-webrtc-wsonly.svg)](https://hub.docker.com/r/giordanocardillo/janus-webrtc-wsonly/) [![Docker Pulls](https://img.shields.io/docker/pulls/giordanocardillo/janus-webrtc-wsonly.svg)](https://hub.docker.com/r/giordanocardillo/janus-webrtc-wsonly/) [![Docker Automated buil](https://img.shields.io/docker/automated/giordanocardillo/janus-webrtc-wsonly.svg)](https://hub.docker.com/r/giordanocardillo/janus-webrtc-wsonly/)
+[![Docker Stars](https://img.shields.io/docker/stars/giordanocardillo/janus-webrtc-wsonly.svg?style=flat-square)](https://hub.docker.com/r/giordanocardillo/janus-webrtc-wsonly/) [![Docker Pulls](https://img.shields.io/docker/pulls/giordanocardillo/janus-webrtc-wsonly.svg?style=flat-square)](https://hub.docker.com/r/giordanocardillo/janus-webrtc-wsonly/) [![Docker Automated build](https://img.shields.io/docker/automated/giordanocardillo/janus-webrtc-wsonly.svg?style=flat-square)](https://hub.docker.com/r/giordanocardillo/janus-webrtc-wsonly/)
 
 # Janus WebRTC v0.2.2 compiled as follows
 
@@ -29,6 +29,13 @@ Event handlers:
     Sample event handler:  yes
 ```
 
+## Pulling the image
+The image is available on docker hub as automated build
+
+```
+docker pull giordanocardillo/janus-webrtc-wsonly
+```
+
 ## Running the container
 A run configuration could be the following (host network is advisable to avoid ICE problems)
 
@@ -37,7 +44,7 @@ docker run -d --network=host -p 8188:8188 -p 8989:8989 -p 8088:8088 -p 8089:8089
 ```  
 
 ## Configuration samples
-Configuration is embedded inside the container, copy it to the host machine using:
+Configuration is shipped within the container, to copy it to the host machine use the following command (after the container is started)
 
 ```
 docker cp janus:/home/janus /root/janus

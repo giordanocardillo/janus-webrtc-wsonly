@@ -55,3 +55,7 @@ Then restart the container
 ```
 docker restart janus
 ```
+
+## Credits
+
+Thanks to [Meetecho](http://www.meetecho.com/en/) for the wonderful [Janus](https://janus.conf.meetecho.com/) project
